@@ -8,7 +8,7 @@ st.set_page_config(page_title="Generator Modul Ajar Deep Learning", page_icon="ð
 # Mengambil API Key dari sistem Streamlit
 api_key = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.title("ðŸ“š Generator Modul Ajar Kurikulum Merdeka created by Jovan Darmawan Togas")
 st.markdown("**Pendekatan Deep Learning (Mindful, Meaningful, Joyful)**")
